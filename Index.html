@@ -1,0 +1,44 @@
+In HTML itself, you don’t have a direct concept of an array like in programming languages such as JavaScript or Java. HTML is a markup language, so it’s used to structure content. However, you can represent array‑like data using lists (ordered or unordered) or by combining HTML with JavaScript, where arrays are actually defined and manipulated.
+Here are two approaches:
+
+📋 Using HTML Lists (Array‑like Representation)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Example in HTML</title>
+</head>
+<body>
+  <h2>Array Representation with List</h2>
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+    <li>Mango</li>
+  </ul>
+</body>
+</html>
+
+
+👉 This shows items like an array, but it’s just a list in HTML.
+
+⚡ Using JavaScript Arrays in HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Example in JavaScript</title>
+</head>
+<body>
+  <h2>Array Example with JavaScript</h2>
+  <p id="demo"></p>
+
+  <script>
+    // Define an array
+    let fruits = ["Apple", "Banana", "Cherry", "Mango"];
+
+    // Display array elements
+    document.getElementById("demo").innerHTML = fruits.join(", ");
+  </script>
+</body>
+</html>
+
+
